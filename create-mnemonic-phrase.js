@@ -36,7 +36,7 @@ console.log(entropy);
     console.log("pieces:", pieces);
 
     // d. Get the wordlist as an array
-    const wordlist = fs.readFileSync('/home/wisdom/Downloads/wordlist.txt', 'utf-8').split('\n');
+    const wordlist = fs.readFileSync('/home/wisdom/creating-mnemonic-phrase/wordlist.txt', 'utf-8').split('\n');
     console.log(wordlist);
 
     // e. Converts group of bits to array of words
